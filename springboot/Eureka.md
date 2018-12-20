@@ -15,11 +15,11 @@ Eureka 采用 CS 的设计架构. Eereka Server 作为服务注册功能的服�
 
 Eureka 与 Dubbo 架构对比图
 
-![Eureka 架构图](C:\Users\walter\AppData\Roaming\Typora\typora-user-images\1545233258035.png)
+![Eureka 架构图](https://github.com/walter9527/mdphoto/blob/master/springboot/eureka/eureka%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 
 
-![Dubbo 架构图](C:\Users\walter\AppData\Roaming\Typora\typora-user-images\1545233391305.png)
+![Dubbo 架构图](https://github.com/walter9527/mdphoto/blob/master/springboot/eureka/dubbo%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 # 二、项目构建
 
@@ -88,7 +88,7 @@ public class EurekaServer7001_App {
 
 模块名 `microservicecloud-eureka-7001`
 
-![eureka 服务模块](C:\Users\walter\AppData\Roaming\Typora\typora-user-images\1545239376704.png)
+![eureka 服务模块](https://github.com/walter9527/mdphoto/blob/master/springboot/eureka/%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E8%80%85%E6%A8%A1%E5%9D%97.png)
 
 ### pom.xml 
 
@@ -170,7 +170,7 @@ public class EurekaServer7001_App {
 
 根据配置的地址 `service-url` , 在浏览器中访问, 比如本次地址是 http://localhost:7001/ ,如果在浏览器中看到如下标志, 表示配置成功
 
-![eureka配置成功](C:\Users\walter\AppData\Roaming\Typora\typora-user-images\1545239986468.png)
+![eureka配置成功](https://github.com/walter9527/mdphoto/blob/master/springboot/eureka/eureka%E9%85%8D%E7%BD%AE%E6%88%90%E5%8A%9F.png)
 
 如果页面中显示`No instances available` 表示没有服务注册进来
 
@@ -235,7 +235,7 @@ public class DeptProvider8001_App {
 
 重新启动服务提供者模块, 如果在服务端 (http://localhost:7001) 页面看到如下信息, 表示服务注册成功
 
-![eureka 注册成功](C:\Users\walter\AppData\Roaming\Typora\typora-user-images\1545243132558.png)
+![eureka 注册成功](https://github.com/walter9527/mdphoto/blob/master/springboot/eureka/eureka%E6%B3%A8%E5%86%8C%E6%88%90%E5%8A%9F.png)
 
 项目名称 `MICROSERVICECLOUD-DEPT` 是在服务提供者配置文件中配置的
 
@@ -274,7 +274,7 @@ eureka:
 
 如果配置成功, 即可达到上图效果
 
-![status 信息修改](C:\Users\walter\AppData\Roaming\Typora\typora-user-images\1545248163884.png)
+![status 信息修改](https://github.com/walter9527/mdphoto/blob/master/springboot/eureka/eureka%E4%BF%A1%E6%81%AF%E4%BF%AE%E6%94%B9.png)
 
 ### 2). 访问信息有 ip 提示
 
@@ -305,7 +305,7 @@ eureka:
 
 添加后的效果如下
 
-![显示微服务 ip](C:\Users\walter\AppData\Roaming\Typora\typora-user-images\1545249217206.png)
+![显示微服务 ip](https://github.com/walter9527/mdphoto/blob/master/springboot/eureka/%E6%98%BE%E7%A4%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1ip.png)
 
 
 
@@ -377,7 +377,7 @@ eureka:
 
  配置后, 在点开 Eureka 服务页面的微服务连接页面
 
-![info 页面信息](C:\Users\walter\AppData\Roaming\Typora\typora-user-images\1545251252847.png)
+![info 页面信息](https://github.com/walter9527/mdphoto/blob/master/springboot/eureka/info%E9%A1%B5%E9%9D%A2%E4%BF%A1%E6%81%AF.png)
 
 
 

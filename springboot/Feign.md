@@ -151,4 +151,4 @@ public class DeptConsumer80_Feign_APP {
 
 ### 启动测试
 
-访问http://localhost/consumer/dept/list
+访问http://localhost/consumer/dept/list, 查看轮询效果
